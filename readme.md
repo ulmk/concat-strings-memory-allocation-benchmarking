@@ -20,5 +20,7 @@ Both strings.Builder and bytes.Buffer use method calls to concatenate strings, w
 4. StringsJoin is quite faster than expected because it uses a specialized implementation that is optimized for concatenating multiple strings with a separator. This implementation is more efficient than the StringBuilder and ByteBuffer approaches because it avoids the overhead of method calls and uses a more efficient algorithm.
 
     Compile-time optimization (e.g., + operator)
+
     Runtime overhead (e.g., Sprintf, method calls)
+    
     Algorithmic efficiency (e.g., strings.Join)
