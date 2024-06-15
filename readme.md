@@ -9,7 +9,7 @@
 ```bash
 go test -benchmem -bench=. bench_test.go
  ```
-## Bench results quite intresting 
+## Bench results are quite intresting 
 ![screenshot](bench_results.png)
 
 ## There are a few reasons for that:
